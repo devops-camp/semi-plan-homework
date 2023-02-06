@@ -1,0 +1,10 @@
+
+.vscode
+.idea
+.DS_Store
+
+themes/
+!themes/init.sh
+!themes/.gitignore
+
+.hugo_build.lock
