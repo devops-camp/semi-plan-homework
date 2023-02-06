@@ -1,4 +1,24 @@
-# semi-plan-20230115
+# 《初一十五计划(Semimonthly Plan)》
+
+## 作业克隆
+
+1. 前往 https://github.com/devops-camp/semi-plan-homework, 右上角 `fork` 克隆到自己的仓库
+2. 在 `/homework/<分期>/<作业文件夹>` 目录下选择自己要完成的内容。
+3. 复制到在 `/users/<Github用户名>/<分期>/<作业目录文件夹>` 
+4. 完成作业内容
+
+```bash
+$ mkdir -p users/<my_github_name>/202301-b/
+$ cp -a homework/202301-b/cobra01 users/<my_github_name>/202301-b/cobra01
+```
+
+## 作业分享
+
+将作业提交合并到专门的仓库 https://github.com/devops-camp/semi-plan-homework-sharing
+
+
+
+## 作业模版
 
 半月刊 2023-01 下
 
