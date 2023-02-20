@@ -10,14 +10,27 @@ function replace_author() {
     username=$(echo ${filepath} | cut -f 3 -d '/')
 
     sed -i "/originAuthor/s/homework/${username}/g" ${filepath}
+    sed -i "/tags:/a\  - ${username}" ${filepath}
+}
 
+## 公开函数为命令
+export -f replace_author
+
+## 替换用户提交
+find ../users -type f -name "*.md" |xargs -n 1 -P 10 -I {} bash -c 'replace_author "$@"' _ {}
+
+
+
+function replace_author_homework() {
+    filepath=$1
+    username=homework
+
+    sed -i "/originAuthor/s/homework/${username}/g" ${filepath}
     sed -i "/tags:/a\  - ${username}" ${filepath}
 }
 
 
-
-# seq -f "n%04g" 1 100 | xargs -n 1 -P 10 -I {} bash -c 'echo_var "$@"' _ {}
-export -f replace_author
-find ../users -type f -name "*.md" |xargs -n 1 -P 10 -I {} bash -c 'replace_author "$@"' _ {}
-
+## 替换 homework
+export -f replace_author_homework
+find ../homework -type f -name "*.md" |xargs -n 1 -P 10 -I {} bash -c 'replace_author_homework "$@"' _ {}
 
