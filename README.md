@@ -17,4 +17,15 @@
 ### 202302-a
 
 + [cobra - 04 Go 项目的目录结构](https://mp.weixin.qq.com/s/mVO_skMC0IPHfHm8mMB4PA)
++ [cobra - 05 通过子命令聊聊 cobra 和 gin 的命令树实现过程](https://mp.weixin.qq.com/s/mGZrazAXdt9bzeOzQcDoBw)
+  + 勘误 [cobra 命令树实现过程](https://mp.weixin.qq.com/s/SvMz8Z2L_JksGf5WKuo7NQ)
++ [cobra - 06 通过持久化任务聊聊 **引用类型** 的问题](https://mp.weixin.qq.com/s/un-Ckq7hHYcHXOWPnWoHYw)
++ [cobra - 07 cobra 的自动补全（官方文档）](https://github.com/zsh-users/zsh-completions)
+
+### 202302-b
+
++ [cobra - 08 cobrautils 使用反射获取 flag 配置， 支持指针字段](https://mp.weixin.qq.com/s/w91TgIye42rTIzuqsbeZZQ)
++ golang-interface-sample
++ golang-context-sample
+
 
