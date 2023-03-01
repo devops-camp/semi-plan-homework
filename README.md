@@ -1,5 +1,14 @@
 # 《初一十五计划(Semimonthly Plan)》
 
+《初一十五计划》 是 [DevOpsCamp https://www.devopscamp.cc](https://www.devopscamp.cc) 训练营中的其中一个学习计划。 
+
+目的是在通过 **将大而全的知识点拆分**， 让大家能逐步掌握。 完成 **总-分-总** 的进阶目标。
+
+
+<img src="https://typonotes.com/mp/wx-qrcode-mini.png" width="200px"/>
+
+添加好友， 备注 **DevOps** 入群
+
 ## 作业分享
 
 1. `fork` 本仓库 [devops-camp/semi-plan-homework](https://github.com/devops-camp/semi-plan-homework)
@@ -25,7 +34,7 @@
 ### 202302-b
 
 + [cobra - 08 cobrautils 使用反射获取 flag 配置， 支持指针字段](https://mp.weixin.qq.com/s/w91TgIye42rTIzuqsbeZZQ)
-+ golang-interface-sample
++ [golang-interface-sample](https://mp.weixin.qq.com/s/U0v-PIbknRzDgm_lTkzTcA)
 + golang-context-sample
 
 
